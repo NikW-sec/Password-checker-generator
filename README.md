@@ -34,7 +34,7 @@ pip install termcolor colorama
 Run the program:
 
 ```
-python password_checker.py
+python3 password-checker-generator.py
 ```
 
 ---
