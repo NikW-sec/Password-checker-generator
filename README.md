@@ -1,4 +1,4 @@
-# Password Checker & Generator — README
+# Password Checker & Generator 
 
 This project has two main functions:
 
