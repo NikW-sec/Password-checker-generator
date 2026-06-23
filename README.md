@@ -18,8 +18,7 @@ It also has other sub functions such as saving the password and its score into a
 - Saves password history with timestamps to a file
 - Colour coded terminal output
 - Mode switching between checker and generator
-
----
+- Hidden typing - ses a hidden input screen to prevent shouldering
 
 ## How to Run
 
@@ -100,6 +99,7 @@ The generator evenly distributes characters across the chosen types, then shuffl
 - Python match/case statement
 - datetime for timestamps
 - random and string modules
+- getpass 
 
 ---
 
