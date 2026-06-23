@@ -4,6 +4,7 @@ import sys
 import string
 import random
 from datetime import datetime
+import getpass
 
 colorama.init()
 
@@ -216,7 +217,7 @@ def main():
    continue
   if style == '1':#check password strength
    while True:
-    user_password = input("Please enter your password:  ").strip()
+    user_password = getpass.getpass("Please enter your password:  ").strip() #prevent shouldering 
     if not user_password: #make sure password is entered
      print("Password cannot be none")
      continue
@@ -232,7 +233,7 @@ def main():
       continue
      match mode: # match the user's input
       case "1":
-       new = input("Enter new password: ")
+       new = getpass.getpass("Enter new password: ")
        print(check.change_password(new))
        check.scan()
        check.show_result()
